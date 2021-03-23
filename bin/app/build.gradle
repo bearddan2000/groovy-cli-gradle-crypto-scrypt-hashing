@@ -1,0 +1,13 @@
+apply plugin: 'application'
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'org.bouncycastle:bcprov-jdk15on:1.60'
+  implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+}
+
+mainClassName = 'example.Main'
